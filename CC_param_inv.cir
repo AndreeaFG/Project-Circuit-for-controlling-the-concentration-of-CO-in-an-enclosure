@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC2-CC_param_inv"  [ C:\Users\Septimiu\Documents\Didactic\alte\2023_2024\tcad\SenzorCO_Orcad\proiecttcad-pspicefiles\schematic2\cc_param_inv.sim ] 
+
+** Creating circuit file "CC_param_inv.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Septimiu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM Rp 90k 45k -0.1k 
++ LIN TEMP -40 80 20 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+.END

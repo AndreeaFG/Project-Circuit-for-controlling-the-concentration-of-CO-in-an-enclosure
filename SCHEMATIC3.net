@@ -1,0 +1,4 @@
+* source PROIECTTCAD
+R_R14         D N03121  1.6k TC=0,0 
+D_D3         D 0 LS_5436-TYP 
+V_V1         N03121 0 18Vdc

@@ -1,0 +1,77 @@
+
+**** 07/04/24 15:50:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC3-caract"  [ C:\Users\Septimiu\Documents\Didactic\alte\2023_2024\tcad\SenzorCO_Orcad\ProiectTCAD-PSpiceFiles\S
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "caract.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Septimiu\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 0 30 0.5 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC3.net" 
+
+
+
+**** INCLUDING SCHEMATIC3.net ****
+* source PROIECTTCAD
+R_R14         D N03121  1.6k TC=0,0 
+D_D3         D 0 LS_5436-TYP 
+V_V1         N03121 0 18Vdc
+
+**** RESUMING caract.cir ****
+.END
+
+**** 07/04/24 15:50:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC3-caract"  [ C:\Users\Septimiu\Documents\Didactic\alte\2023_2024\tcad\SenzorCO_Orcad\ProiectTCAD-PSpiceFiles\S
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               LS_5436-TYP     
+          IS  980.130000E-24 
+           N    1.6749       
+         IKF    7.140200E-03 
+          RS    1.6217       
+
+
+
+          JOB CONCLUDED
+
+**** 07/04/24 15:50:42 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC3-caract"  [ C:\Users\Septimiu\Documents\Didactic\alte\2023_2024\tcad\SenzorCO_Orcad\ProiectTCAD-PSpiceFiles\S
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .20
+

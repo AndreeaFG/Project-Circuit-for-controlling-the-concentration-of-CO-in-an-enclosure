@@ -1,0 +1,7 @@
+ lib=d:\orcad2\tools\PSpice\Library\jdiode.lib, offset=7919, size=160
+ lib=d:\orcad2\tools\PSpice\Library\osram_5mmradial.lib, offset=20174, size=1460
+ lib=d:\orcad2\tools\PSpice\Library\diode.lib, offset=13939, size=211
+ lib=d:\orcad2\tools\PSpice\Library\bipolar.lib, offset=102680, size=644
+ lib=d:\orcad2\tools\PSpice\Library\ebipolar.lib, offset=6789, size=384
+ lib=d:\orcad2\tools\PSpice\Library\pwrbjt.lib, offset=251082, size=343
+ lib=d:\orcad2\tools\PSpice\Library\opamp.lib, offset=96448, size=1161

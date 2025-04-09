@@ -1,0 +1,9 @@
+* source PROIECTTCAD
+Q_Q1         IS N00262 N00254 Q2N2907
+Q_Q2         N00262 N00262 N00258 Q2N2907
+R_R1         N00258 N00230  1k TC=0,0 
+R_R2         N00254 N00230  1k TC=0,0 
+R_Rref         0 N00262  107k TC=0,0 
+R_R4         0 IS  {Rp} TC=0,0 
+V_V1         N00230 0 18Vdc
+.PARAM  rp=50k

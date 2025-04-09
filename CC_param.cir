@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC2-CC_param"  [ D:\Andreea CAD Proiect\OrcadProiect22\proiecttcad-pspicefiles\schematic2\cc_param.sim ] 
+
+** Creating circuit file "CC_param.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM Rp 45k 90k 0.1k 
++ LIN TEMP -40 80 20 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC2.net" 
+
+
+.END

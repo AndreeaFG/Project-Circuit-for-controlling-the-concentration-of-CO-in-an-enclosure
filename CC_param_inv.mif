@@ -1,0 +1,7 @@
+ lib=C:\Cadence\SPB_16.6\tools\PSpice\Library\jdiode.lib, offset=7866, size=160
+ lib=C:\Cadence\SPB_16.6\tools\PSpice\Library\osram_5mmradial.lib, offset=20174, size=1460
+ lib=C:\Cadence\SPB_16.6\tools\PSpice\Library\diode.lib, offset=13853, size=211
+ lib=C:\Cadence\SPB_16.6\tools\PSpice\Library\bipolar.lib, offset=102680, size=644
+ lib=C:\Cadence\SPB_16.6\tools\PSpice\Library\ebipolar.lib, offset=6715, size=384
+ lib=C:\Cadence\SPB_16.6\tools\PSpice\Library\pwrbjt.lib, offset=250900, size=343
+ lib=C:\Cadence\SPB_16.6\tools\PSpice\Library\opamp.lib, offset=96448, size=1161
